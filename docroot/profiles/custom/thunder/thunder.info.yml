@@ -1,0 +1,16 @@
+name: thunder
+type: profile
+description: 'Thunder: A subprofile of Lightning'
+core: 8.x
+
+distribution:
+  name: 'Thunder'
+
+base profile:
+  name: lightning
+
+dependencies:
+  - 'acsf'
+  - 'color'
+  - 'config_split'
+  - 'config_filter'

@@ -1,5 +1,10 @@
 <?php
 
+// ===== Added by acsf-init, please do not delete. Section start. =====
+include dirname(__FILE__) . '/acsf.settings.php';
+// ===== Added by acsf-init, please do not delete. Section end. =====
+
+
 /**
  * @file
  * Drupal site-specific configuration file.
@@ -295,7 +300,7 @@ $config_directories = array();
  *   $settings['hash_salt'] = file_get_contents('/home/example/salt.txt');
  * @endcode
  */
-$settings['hash_salt'] = '';
+$settings['hash_salt'] = '5oXYrIEhBiQefOfIXbu-ZxlFhP-IPIW6wiGuYV4q-QDsrd7gc3f2Lk9zRxbRU2LUy7xdE13gyg';
 
 /**
  * Deployment identifier.
@@ -783,3 +788,16 @@ $settings['entity_update_batch_size'] = 50;
 # if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
 #   include $app_root . '/' . $site_path . '/settings.local.php';
 # }
+require DRUPAL_ROOT . "/../vendor/acquia/blt/settings/blt.settings.php";
+$databases['default']['default'] = array (
+  'database' => 'drupal',
+  'username' => 'drupal',
+  'password' => 'drupal',
+  'prefix' => '',
+  'host' => 'localhost',
+  'port' => '3306',
+  'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
+  'driver' => 'mysql',
+);
+$settings['install_profile'] = 'thunder';
+

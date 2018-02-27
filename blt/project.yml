@@ -3,13 +3,13 @@ project:
   prefix: BLT
   human_name: 'BLTed 8'
   profile:
-    name: lightning
+    name: thunder
   local:
     protocol: http
     hostname: 'local.${project.machine_name}.com'
 git:
   default_branch: master
-  remotes: {  }
+  remotes: acsfcustomerexp2@svn-1402.enterprise-g1.hosting.acquia.com:acsfcustomerexp2.git
 drush:
   aliases:
     remote: '${project.machine_name}.test'
