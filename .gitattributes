@@ -79,3 +79,4 @@
 *.PDF     -text diff
 *.jar     -text diff
 *.JAR     -text diff
+*.bat     -text diff
