@@ -19,6 +19,7 @@ blacklist:
   - system.action.user_remove_role_action.press_room_reviewer
   - user.role.press_room_creator
   - user.role.press_room_reviewer
+  - views.view.press_room
 graylist: {  }
 graylist_dependents: true
 graylist_skip_equal: true
