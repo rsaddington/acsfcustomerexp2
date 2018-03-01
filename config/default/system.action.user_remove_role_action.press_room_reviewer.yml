@@ -1,0 +1,14 @@
+uuid: 5246a289-4d39-420e-90d2-7cc029020b67
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.press_room_reviewer
+  module:
+    - user
+id: user_remove_role_action.press_room_reviewer
+label: 'Remove the Press room reviewer role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: press_room_reviewer

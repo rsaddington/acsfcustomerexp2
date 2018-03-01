@@ -1,0 +1,14 @@
+uuid: 5d1ce35f-094e-4166-9663-71b8a5692762
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.press_room_creator
+  module:
+    - user
+id: user_remove_role_action.press_room_creator
+label: 'Remove the Press room creator role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: press_room_creator
