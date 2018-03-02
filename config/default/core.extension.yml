@@ -87,6 +87,7 @@ module:
   system: 0
   taxonomy: 0
   text: 0
+  thunder: 1
   token: 0
   toolbar: 0
   update: 0
@@ -98,7 +99,6 @@ module:
   workflows: 0
   menu_link_content: 1
   views: 10
-  thunder: 0
 theme:
   stark: 0
   stable: 0
