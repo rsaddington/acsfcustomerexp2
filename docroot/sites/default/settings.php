@@ -802,3 +802,6 @@ $databases['default']['default'] = array (
 
 $settings['install_profile'] = 'thunder';
 
+$config['system.site']['uuid'] = "4f7ee7d8-d2cc-4198-b902-a70308826504";
+
+
