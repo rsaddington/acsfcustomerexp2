@@ -12,3 +12,6 @@
 */
 $config_directories['vcs'] = '../config/default';
 $config_directories['sync'] = '../config/default';
+
+
+$settings['install_profile'] = 'thunder';
