@@ -9,6 +9,7 @@ base profile:
   name: lightning
 dependencies:
   - 'acsf'
+  - 'acsf_sso'
   - 'color'
   - 'config_split'
   - 'config_filter'
