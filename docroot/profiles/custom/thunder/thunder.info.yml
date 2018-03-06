@@ -13,6 +13,8 @@ dependencies:
   - 'color'
   - 'config_split'
   - 'config_filter'
+  - 'features'
+  - 'features_ui'
 themes:
   - bartik
   - seven
