@@ -9,7 +9,8 @@ project:
     hostname: 'local.${project.machine_name}.com'
 git:
   default_branch: master
-  remotes: acsfcustomerexp2@svn-1402.enterprise-g1.hosting.acquia.com:acsfcustomerexp2.git
+  remotes: 
+    - 'acsfcustomerexp2@svn-1402.enterprise-g1.hosting.acquia.com:acsfcustomerexp2.git'
 drush:
   aliases:
     remote: '${project.machine_name}.test'
