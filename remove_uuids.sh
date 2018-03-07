@@ -1,5 +1,5 @@
 #!/bin/bash
-FILES=/var/www/blt-sf/docroot/profiles/custom/thunder/config/install/*.yml
+FILES=/var/www/blt-sf/config/default/*.yml
 for f in $FILES
 do
   echo "Processing $f file..."
