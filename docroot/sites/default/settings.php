@@ -804,4 +804,9 @@ $settings['install_profile'] = 'thunder';
 
 $config['system.site']['uuid'] = "4f7ee7d8-d2cc-4198-b902-a70308826504";
 
+//$config['config_split.config_split.blog']['status'] = TRUE;
+//$config['config_split.config_split.green']['status'] = FALSE;
+//$config['config_split.config_split.red']['status'] = FALSE;
+$config['config_split.config_split.yellow']['status'] = TRUE;
+//$config['config_split.config_split.press_room']['status'] = TRUE;
 
