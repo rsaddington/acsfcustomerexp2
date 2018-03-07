@@ -1,0 +1,26 @@
+uuid: 2abfc4c8-fcc3-41ca-80c6-3a9ae2801b44
+langcode: en
+status: false
+dependencies: {  }
+id: press_room
+label: 'Press Room'
+folder: ../config/features/press-room
+module: {  }
+theme: {  }
+blacklist:
+  - core.entity_form_display.node.press_room.default
+  - core.entity_view_display.node.press_room.default
+  - core.entity_view_display.node.press_room.teaser
+  - field.field.node.press_room.body
+  - node.type.press_room
+  - system.action.user_add_role_action.press_room_creator
+  - system.action.user_add_role_action.press_room_reviewer
+  - system.action.user_remove_role_action.press_room_creator
+  - system.action.user_remove_role_action.press_room_reviewer
+  - user.role.press_room_creator
+  - user.role.press_room_reviewer
+  - views.view.press_room
+graylist: {  }
+graylist_dependents: true
+graylist_skip_equal: true
+weight: 0

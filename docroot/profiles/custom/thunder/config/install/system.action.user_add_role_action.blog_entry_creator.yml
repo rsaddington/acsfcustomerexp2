@@ -1,0 +1,14 @@
+uuid: 616ddd2d-984c-4da3-baed-ffa22c8d879d
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.blog_entry_creator
+  module:
+    - user
+id: user_add_role_action.blog_entry_creator
+label: 'Add the Blog entry creator role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: blog_entry_creator

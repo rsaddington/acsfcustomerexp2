@@ -1,0 +1,15 @@
+uuid: 30b629dd-a928-4e3e-9dfe-0c3979d64150
+langcode: en
+status: false
+dependencies: {  }
+id: green
+label: Green
+folder: ../config/sites/green
+module: {  }
+theme: {  }
+blacklist:
+  - color.theme.bartik
+graylist: {  }
+graylist_dependents: true
+graylist_skip_equal: true
+weight: 0

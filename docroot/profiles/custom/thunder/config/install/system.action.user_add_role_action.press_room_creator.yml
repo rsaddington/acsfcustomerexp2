@@ -1,0 +1,14 @@
+uuid: 059490ba-eca1-42c9-8448-bc236a6d34e3
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.press_room_creator
+  module:
+    - user
+id: user_add_role_action.press_room_creator
+label: 'Add the Press room creator role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: press_room_creator
