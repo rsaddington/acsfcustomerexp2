@@ -13,6 +13,7 @@ dependencies:
   - 'color'
   - 'config_split'
   - 'config_filter'
+  - 'config_ignore'
   - 'features'
   - 'features_ui'
 themes:

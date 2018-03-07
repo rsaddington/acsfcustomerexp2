@@ -1,0 +1,15 @@
+uuid: 7e69ade5-6241-4915-ab8a-f157bcc3bdb8
+langcode: en
+status: false
+dependencies: {  }
+id: red
+label: Red
+folder: ../config/sites/red
+module: {  }
+theme: {  }
+blacklist:
+  - color.theme.bartik
+graylist: {  }
+graylist_dependents: true
+graylist_skip_equal: true
+weight: 0

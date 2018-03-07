@@ -1,0 +1,15 @@
+uuid: 53d4194f-ec30-468d-b1bd-1c5e7a4d0dba
+langcode: en
+status: false
+dependencies: {  }
+id: blue
+label: Blue
+folder: ../config/sites/blue
+module: {  }
+theme: {  }
+blacklist:
+  - color.theme.bartik
+graylist: {  }
+graylist_dependents: true
+graylist_skip_equal: true
+weight: 0
