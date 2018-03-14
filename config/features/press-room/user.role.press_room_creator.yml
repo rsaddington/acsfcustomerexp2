@@ -1,0 +1,33 @@
+uuid: bb05f909-401e-4a68-916d-d9a022a8ae74
+langcode: en
+status: true
+dependencies:
+  module:
+    - lightning_core
+third_party_settings:
+  lightning_core:
+    description: ''
+id: press_room_creator
+label: 'Press room creator'
+weight: 9
+is_admin: null
+permissions:
+  - 'access contextual links'
+  - 'access image_browser entity browser pages'
+  - 'access in-place editing'
+  - 'access media_browser entity browser pages'
+  - 'access panels in-place editing'
+  - 'access toolbar'
+  - 'administer panelizer node press_room content'
+  - 'administer panelizer node press_room layout'
+  - 'change layouts in place editing'
+  - 'create press_room content'
+  - 'create url aliases'
+  - 'edit own press_room content'
+  - 'use editorial transition create_new_draft'
+  - 'use editorial transition review'
+  - 'use text format rich_text'
+  - 'view any unpublished content'
+  - 'view latest version'
+  - 'view own unpublished content'
+  - 'view press_room revisions'

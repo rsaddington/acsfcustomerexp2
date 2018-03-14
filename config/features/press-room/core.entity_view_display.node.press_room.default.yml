@@ -1,0 +1,27 @@
+uuid: 6d9a9da1-81e9-4bae-a817-4802a82ec838
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.press_room.body
+    - node.type.press_room
+  module:
+    - text
+    - user
+id: node.press_room.default
+targetEntityType: node
+bundle: press_room
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden:
+  scheduled_publication: true

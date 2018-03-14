@@ -1,0 +1,22 @@
+uuid: 0b161dab-c24c-45ac-aa9a-f8f16d2f364d
+langcode: en
+status: true
+dependencies:
+  module:
+    - lightning_core
+third_party_settings:
+  lightning_core:
+    description: ''
+id: press_room_reviewer
+label: 'Press room reviewer'
+weight: 10
+is_admin: null
+permissions:
+  - 'access content overview'
+  - 'delete any press_room content'
+  - 'edit any press_room content'
+  - 'revert press_room revisions'
+  - 'use editorial transition archive'
+  - 'use editorial transition publish'
+  - 'use editorial transition review'
+  - 'view press_room revisions'

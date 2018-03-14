@@ -1,0 +1,29 @@
+uuid: 48c362c1-5192-4e24-a780-a7229cdce2df
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.press_room.body
+    - node.type.press_room
+  module:
+    - text
+    - user
+id: node.press_room.teaser
+targetEntityType: node
+bundle: press_room
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden:
+  scheduled_publication: true

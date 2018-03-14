@@ -1,0 +1,15 @@
+uuid: f56a340e-9c8a-4d65-8ceb-95ed53129ade
+langcode: en
+status: false
+dependencies: {  }
+id: yellow
+label: Yellow
+folder: ../config/sites/yellow
+module: {  }
+theme: {  }
+blacklist:
+  - color.theme.bartik
+graylist: {  }
+graylist_dependents: true
+graylist_skip_equal: true
+weight: 0

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "a6ae2993e31832284abab67149ef44ab",
+    "content-hash": "02ee850c3ce1d7178e250cf24f2ac6d5",
     "packages": [
         {
             "name": "acquia/acsf-tools",
@@ -392,7 +392,7 @@
             "version": "v5.1.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/enyo/dropzone.git",
+                "url": "git@github.com:enyo/dropzone.git",
                 "reference": "7d0792d1346d83a8b0c0d2919121bdd2b8e7fee4"
             },
             "dist": {
@@ -2486,6 +2486,63 @@
                 "issues": "https://www.drupal.org/project/issues/config_split",
                 "irc": "irc://irc.freenode.org/drupal-contribute"
             }
+        },
+        {
+            "name": "drupal/config_split_manager",
+            "version": "dev-1.x",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupal.org/project/config_split_manager",
+                "reference": "f28ebea1f1fb0fa88136809d9975a7df6fbd0c64"
+            },
+            "require": {
+                "drupal/config_filter": "*",
+                "drupal/config_split": "*",
+                "drupal/core": "~8.0",
+                "php": ">=5.6.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.x-dev",
+                    "datestamp": "1520887684",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Project has not opted into security advisory coverage!"
+                    }
+                },
+                "drush": {
+                    "services": {
+                        "drush.services.yml": "^9"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Atul Kamboj",
+                    "homepage": "https://www.drupal.org/u/atulkamboj",
+                    "email": "atulkamboj@gmail.com",
+                    "role": "Maintainer"
+                }
+            ],
+            "description": "Allows administrator to select modules per ennvironment and those will get exported to separate directories when exporting with 'drush csmex -y' command",
+            "homepage": "https://www.drupal.org/project/config_split_manager",
+            "keywords": [
+                "Drupal",
+                "configuration",
+                "configuration management"
+            ],
+            "support": {
+                "source": "http://cgit.drupalcode.org/config_split_manager"
+            },
+            "time": "2018-03-12T21:53:14+00:00"
         },
         {
             "name": "drupal/config_update",
@@ -12627,7 +12684,9 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "drupal/config_split_manager": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": [],
